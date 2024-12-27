@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fone De Ouvido Tune 520bt Jbl</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="logo">
+                <img src="img/logo.png" alt="TechStore Logo">
+                <h1></h1>
+            </div>
+            <nav class="nav">
+                <a href="#">Computadores</a>
+                <a href="#">Celulares</a>
+                <a href="#">Acessórios</a>
+                <a href="#">Promoções</a>
+            </nav>
+            <div class="user-options">
+                <a href="#">
+                    <i class="fas fa-user"></i>
+                    login / cadastro
+                </a>
+                <input type="text" placeholder="Buscar produto">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <div class="product-details">
+          <div class="product-gallery">
+            <img id="foto-destaque" src="img/fone-destaque01.png" alt="Fone de Ouvido Bluetooth" />
+            <div class="gallery-thumbnails">
+              <img onmouseover="foto01()" onclick="foto01();" src="img/fone01.png" alt="Fone de Ouvido - Detalhe 1" />
+              <img onmouseover="foto02()" onclick="foto02();" src="img/fone02.png" alt="Fone de Ouvido - Detalhe 2" />
+              <img onmouseover="foto03()" onclick="foto03();"  src="img/fone03.png" alt="Fone de Ouvido - Detalhe 3" />
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-path">
+              <i class="fas fa-chevron-right"></i> Tecnologia / Fones / Sem Fio
+            </p>
+            <h2 id="titulo" >Fone de ouvido sem fio JBL Tune 520BT Dobrável Preto</h2>
+            <p class="product-code">Código do Produto: 98765XYZ</p>
+            <p class="price">R$ 227,69</p>
+            <p class="rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star-half-alt"></i> 45 avaliações
+            </p>
+            <p class="product-description">
+              Os fones de ouvido JBL Tune 520BT transmitem o potente som JBL Pure Bass graças à última tecnologia de bluetooth 5.3. Fáceis de usar, esses fones de ouvido proporcionam até 57 horas de puro prazer e 3 horas extras de bateria com apenas 5 minutos de carga. 
+            </p>
+            <div class="product-options">
+              <label for="color">Cor:</label>
+              <select id="color">
+                <option>Preto</option>
+                <option>Branco</option>
+                <option>Azul</option>
+              </select>
+              <label for="quantity">Quantidade:</label>
+              <input type="number" id="quantity" value="1" />
+            </div>
+            <div class="buttons">
+              <button class="add-to-cart">
+                <i class="fas fa-shopping-cart"></i> Adicionar ao carrinho
+              </button>
+              <button class="add-to-wishlist">
+                <i class="fas fa-heart"></i> Adicionar à lista de desejos
+              </button>
+            </div>
+            <p class="delivery">
+              <i class="fas fa-truck"></i> Estimativa de Entrega: Consulte nossos
+              Termos e Condições
+            </p>
+          </div>
+        </div>
+        <div class="product-specs">
+          <ul class="tabs">
+            <li><i class="fas fa-info-circle"></i> Detalhes</li>
+            <li><i class="fas fa-undo"></i> Devolução</li>
+            <li><i class="fas fa-shipping-fast"></i> Entrega</li>
+          </ul>
+          <div class="specs-content">
+            <div>
+              <p><strong>SKU:</strong> TECH98765</p>
+              <p><strong>Alcance sem fio:</strong> 10 metros</p>
+              <p><strong>Tempo de Bateria:</strong> Até 57 horas</p>
+              <p><strong>Conectividade:</strong> Bluetooth 5.3</p>
+            </div>
+          </div>
+        </div>
+      </main>
+    <script src="js.js"></script>
+</body>
+</html>
